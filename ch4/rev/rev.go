@@ -20,6 +20,9 @@ func main() {
 	s := []byte{0, 1, 2, 3, 4, 5}
 	reverse_rune(s)
 	fmt.Println(s)
+
+	var a []int
+	fmt.Println(a == nil)
 }
 
 // func reverse(s []int) {
